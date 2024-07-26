@@ -18,6 +18,6 @@ This dataset is based on responses, and since most calls involve multiple units,
 
 * This project involved:
 
-🔹 *Data Ingestion: Reading emergency call data from the San Francisco Fire Department stored in Amazon S3.*
-🔹 *Secure Storage: Transferring and storing the data in Azure Data Lake Storage (ADLS).*
-🔹 *Transformation and Analysis: Using Azure Databricks to transform, analyze, and store the transformed data.*
+    * *Data Ingestion: Reading emergency call data from the San Francisco Fire Department stored in Amazon S3.*
+    * *Secure Storage: Transferring and storing the data in Azure Data Lake Storage (ADLS).*
+    * *Transformation and Analysis: Using Azure Databricks to transform, analyze, and store the transformed data.*
