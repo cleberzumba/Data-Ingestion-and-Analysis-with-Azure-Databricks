@@ -16,12 +16,8 @@ This dataset is based on responses, and since most calls involve multiple units,
     * *End-to-end Data Engineering pipeline covers the extraction, transformation and loading (ETL) steps of large volumes of data, using PySpark for transformation and Spark SQL for queries. Caching techniques were implemented to optimize query performance, and data analysis was conducted to gain insights.* 
     * *How to answer questions by analizing data using Spark SQL*
 
-* Benefits of the Techniques Used:
-    * *Partitioning: Improves data reading and writing by dividing data into smaller, more manageable partitions.*
-    * *Spark Settings: Tweaks like spark.sql.shuffle.partitions and spark.sql.autoBroadcastJoinThreshold help optimize
- shuffle and join operations.*
-    * *Parquet Format: Parquet format storage improves reading and writing performance due to its columnar nature and
- support compression.*
-    * *Cache: Caching frequently used DataFrames reduces subsequent data reading time.*
-    * *Integrated Analysis: Analysis can be performed directly in Databricks, with integrated visualizations for easy interpretation of the results.*
-    * *Using Databricks and Spark allows the pipeline to easily scale to large volumes of data.*
+* This project involved:
+
+🔹 *Data Ingestion: Reading emergency call data from the San Francisco Fire Department stored in Amazon S3.*
+🔹 *Secure Storage: Transferring and storing the data in Azure Data Lake Storage (ADLS).*
+🔹 *Transformation and Analysis: Using Azure Databricks to transform, analyze, and store the transformed data.*
